@@ -13,8 +13,8 @@
       </g>
     </svg>
   </div>
-  <h2 class="font-bold text-4xl text-center">Poker for People</h2>
-  <p class="mb-4 text-center">Open source Hold 'em</p>
+  <h2 class="font-bold text-4xl text-center">Gypsy Poker</h2>
+  <p class="mb-4 text-center">Texas Hold 'em</p>
   <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" action="/joinGame" method="POST">
     <p class="mb-4">Enter your info below to join or create a new table.</p>
     <p class="mb-4 text-sm text-gray-400 italic">If you're the first to enter a Table Code, you'll create that table.</p>
@@ -28,7 +28,7 @@
       <label class="block text-gray-700 text-sm font-bold mb-2" for="lastName">
         Last Name
       </label>
-      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="lastName" id="lastName" type="text" placeholder="last name" value="{{user.lastName}}">
+      <input class="hide shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="lastName" id="lastName" type="text" placeholder="last name" value="gypsy">
     </div>
     <div class="mb-4">
       <label class="block text-gray-700 text-sm font-bold mb-2" for="gameId">
@@ -42,8 +42,5 @@
       </button>
     </div>
   </form>
-  <p class="text-center text-gray-500 text-xs">
-    &copy;2022 Jeff Mason. All rights reserved.
-  </p>
 </div>
 <script src="/js/menus.js"></script>
