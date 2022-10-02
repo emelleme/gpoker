@@ -1,4 +1,4 @@
-# Poker People
+# Poker
 This is an open source GPL licensed Node.js poker game. I'm writing blog articles to follow its development as I improve the project. Here's the intro article: [Crowdsourced Learning: Javascript Texas Hold 'em App, Part 1](https://medium.com/@masonjeffreys/crowdsourced-learning-javascript-texas-hold-em-app-part-1-55473a01e35b)
   
 ## License
